@@ -2,7 +2,7 @@
 
 Portfolio website built with Vite + React. Minimalist, responsive design with smooth animations.
 
-![Portfolio Preview](https://muhammadfikri.web.id)
+![Portfolio Preview](https://img2.pixhost.to/images/6706/708113572_image.jpg)
 
 ## 🚀 Features
 
