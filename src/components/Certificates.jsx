@@ -2,8 +2,8 @@ import '../styles/Certificates.css'
 
 function Certificates() {
   const certificates = [
-    { id: 1, src: 'https://img2.pixhost.to/images/6703/708086870_image.jpg', alt: 'Certificate 1' },
-    { id: 2, src: 'https://img2.pixhost.to/images/6703/708086984_image.jpg', alt: 'Certificate 2' },
+    { id: 1, src: 'https://img2.pixhost.to/images/6703/708086870_image.jpg', alt: 'Muhammad Fikri Webinar Idwebstalks' },
+    { id: 2, src: 'https://img2.pixhost.to/images/6703/708086984_image.jpg', alt: 'Sertifikat Webinar Nasional HIMATEK Muhammad Fikri' },
   ]
 
   return (
