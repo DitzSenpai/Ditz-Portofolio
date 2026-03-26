@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #fafafa;
+  color: #000000;
+  line-height: 1.6;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding-top: 85px;
+}
+
+.section {
+  padding: 4rem 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section + .section {
+  border-top: 1px solid #eaeaea;
+}
+
+.section-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #111111;
+  margin-bottom: 1.75rem;
+  letter-spacing: -0.3px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding-top: 75px;
+  }
+
+  .section {
+    padding: 3rem 1.25rem;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding-top: 70px;
+  }
+
+  .section {
+    padding: 2.5rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.15rem;
+    margin-bottom: 1.25rem;
+  }
+}
