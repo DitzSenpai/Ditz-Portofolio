@@ -22,7 +22,7 @@ function About() {
         <img
           src="https://img2.pixhost.to/images/6703/708085391_image.jpg"
           alt="Profile Avatar"
-          className="profile-avatar"
+          className="avatar"
         />
       </div>
       <h1 className="name">Muhammad Fikri</h1>

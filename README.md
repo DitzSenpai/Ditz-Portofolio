@@ -17,6 +17,7 @@ Portfolio website built with Vite + React.
 - About
 - Skills
 - Certificates (with popup modal)
+- Projects (GitHub API)
 - Music
 - Contact
 

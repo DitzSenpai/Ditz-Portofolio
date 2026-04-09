@@ -3,6 +3,7 @@ import Header from './components/Header'
 import About from './components/About'
 import Skills from './components/Skills'
 import Certificates from './components/Certificates'
+import Projects from './components/Projects'
 import Music from './components/Music'
 import Contact from './components/Contact'
 import SEO from './components/SEO'
@@ -18,6 +19,7 @@ function App() {
           <About />
           <Skills />
           <Certificates />
+          <Projects />
           <Music />
           <Contact />
         </main>

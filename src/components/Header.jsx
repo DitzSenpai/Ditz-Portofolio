@@ -49,6 +49,13 @@ function Header() {
             Certificates
           </a>
           <a
+            href="#projects"
+            className={activeLink === 'projects' ? 'active' : ''}
+            onClick={() => handleNavClick('projects')}
+          >
+            Projects
+          </a>
+          <a
             href="#music"
             className={activeLink === 'music' ? 'active' : ''}
             onClick={() => handleNavClick('music')}

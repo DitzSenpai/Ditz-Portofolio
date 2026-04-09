@@ -1,41 +1,22 @@
 .music {
-  text-align: center;
+  text-align: left;
 }
 
-.spotify-wrapper {
-  display: flex;
-  justify-content: center;
-  padding: 1.5rem 0;
-}
-
-.spotify-container {
-  width: 100%;
-  max-width: 550px;
+.spotify-card {
   border-radius: 12px;
   overflow: hidden;
-  user-select: none;
   border: 1px solid #eaeaea;
   background: #ffffff;
 }
 
-.spotify-container iframe {
+.spotify-card iframe {
   width: 100%;
   height: 152px;
   display: block;
 }
 
 @media (max-width: 768px) {
-  .spotify-container {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .spotify-wrapper {
-    padding: 1rem 0;
-  }
-
-  .spotify-container iframe {
-    height: 152px;
+  .spotify-card {
+    border-radius: 10px;
   }
 }
