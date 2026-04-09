@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async'
 function SEO({ title, description, image, url }) {
   const siteTitle = title || 'Muhammad Fikri - Portfolio | Pelajar Sekolah & Web Developer'
   const siteDescription = description || 'Muhammad Fikri Portfolio - Pelajar Sekolah Indonesia yang tertarik di bidang IT dan Web Development. Portfolio resmi Muhammad Fikri dengan skills JavaScript, Python, React.'
-  const siteImage = image || 'https://img2.pixhost.to/images/6703/708085391_image.jpg'
+  const siteImage = image || '/favicon.jpg'
   const siteUrl = url || 'https://muhammadfikri.web.id'
 
   return (
