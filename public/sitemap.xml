@@ -34,20 +34,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://muhammadfikri.web.id/#certificates</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://img2.pixhost.to/images/6703/708086870_image.jpg</image:loc>
-      <image:title>Sertifikat Webinar Idwebstalks Muhammad Fikri</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://img2.pixhost.to/images/6703/708086984_image.jpg</image:loc>
-      <image:title>Sertifikat Webinar Nasional HIMATEK Muhammad Fikri</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://muhammadfikri.web.id/#projects</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
