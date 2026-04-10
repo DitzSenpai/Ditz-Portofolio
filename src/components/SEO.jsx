@@ -1,17 +1,17 @@
 import { Helmet } from 'react-helmet-async'
 
 function SEO({ title, description, image, url }) {
-  const siteTitle = title || 'Muhammad Fikri - Portfolio | Pelajar Sekolah & Web Developer'
-  const siteDescription = description || 'Muhammad Fikri Portfolio - Pelajar Sekolah Indonesia yang tertarik di bidang IT dan Web Development. Portfolio resmi Muhammad Fikri dengan skills JavaScript, Python, React, dan berbagai project open source di GitHub.'
+  const siteTitle = title || 'Aditya Nur Wahyuda - Portfolio | Pelajar Sekolah & Web Developer'
+  const siteDescription = description || 'Aditya Nur Wahyuda Portfolio - Pelajar Sekolah Indonesia yang tertarik di bidang IT dan Web Development. Portfolio resmi Muhammad Fikri dengan skills JavaScript, Python, React, dan berbagai project open source di GitHub.'
   const siteImage = image || '/favicon.jpg'
-  const siteUrl = url || 'https://muhammadfikri.web.id'
+  const siteUrl = url || 'https://portofolio.ditzdigital.my.id'
 
   return (
     <Helmet>
       <title>{siteTitle}</title>
       <meta name="description" content={siteDescription} />
-      <meta name="keywords" content="Muhammad Fikri, Muhammad Fikri Portfolio, Muhammad Fikri Pelajar, Muhammad Fikri Pelajar Sekolah, Muhammad Fikri Web Developer, Portfolio Muhammad Fikri, Fikri Portfolio, Fikri Developer, Web Developer Indonesia, Pelajar IT, Programmer Pemula, JavaScript, Python, React, Frontend Developer, Siswa IT Indonesia, Belajar Coding, Portfolio Pelajar, GitHub Developer Indonesia, Muhammad Fikri GitHub, Muhammad Fikri Programmer" />
-      <meta name="author" content="Muhammad Fikri" />
+      <meta name="keywords" content="Aditya Nur Wahyuda, Aditya Nur Wahyuda Portfolio, Aditya Nur Wahyuda Pelajar, Aditya Nur Wahyuda Pelajar Sekolah, Aditya Nur Wahyuda Web Developer, Portfolio Aditya Nur Wahyuda, Aditya Portfolio, Aditya Developer, Web Developer Indonesia, Pelajar IT, Programmer Pemula, JavaScript, Python, React, Frontend Developer, Siswa IT Indonesia, Belajar Coding, Portfolio Pelajar, GitHub Developer Indonesia, Aditya Nur Wahyuda GitHub, Aditya Nur Wahyuda Programmer" />
+      <meta name="author" content="Aditya Nur Wahyuda" />
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       <meta name="googlebot" content="index, follow" />
       <link rel="canonical" href={siteUrl} />
@@ -26,12 +26,12 @@ function SEO({ title, description, image, url }) {
       <meta property="og:image" content={siteImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Muhammad Fikri Portfolio" />
+      <meta property="og:image:alt" content="Aditya Nur Wahyuda Portfolio" />
       <meta property="og:locale" content="id_ID" />
-      <meta property="og:site_name" content="Muhammad Fikri Portfolio" />
-      <meta property="profile:first_name" content="Muhammad" />
-      <meta property="profile:last_name" content="Fikri" />
-      <meta property="profile:username" content="whofik" />
+      <meta property="og:site_name" content="Aditya Nur Wahyuda Portfolio" />
+      <meta property="profile:first_name" content="Aditya" />
+      <meta property="profile:last_name" content="Nur Wahyuda" />
+      <meta property="profile:username" content="DitzSenpai" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={siteUrl} />
