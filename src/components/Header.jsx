@@ -15,7 +15,7 @@ function Header() {
       <div className="header-inner">
         <div className="brand">
           <span className="brand-title">Portofolio</span>
-          <span className="brand-subtitle">Muhammad Fikri</span>
+          <span className="brand-subtitle">Aditya Nur Wahyuda</span>
         </div>
         <button
           className={`menu-toggle ${menuOpen ? 'menu-open' : ''}`}
