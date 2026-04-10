@@ -20,12 +20,12 @@ function About() {
     <section id="about" className="section about">
       <div className="profile-container">
         <img
-          src="https://img2.pixhost.to/images/6703/708085391_image.jpg"
+          src="https://cdn.ditzdigital.my.id/files/1775829493633_lf0x1li3_148fd1ade78d7ea66ed0e88e7af173d9.jpg"
           alt="Profile Avatar"
           className="avatar"
         />
       </div>
-      <h1 className="name">Muhammad Fikri</h1>
+      <h1 className="name">Aditya Nur Wahyuda</h1>
       <p className="status">Pelajar Sekolah</p>
       <p className="bio">
         <span className="typing-text">{displayedText}</span>
